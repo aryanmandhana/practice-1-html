@@ -1,0 +1,57 @@
+        /* table css */
+        table,
+        th,
+        td {
+            border: 2px dotted red;
+            border-collapse: collapse;
+        }
+
+        /* paragraph css */
+        p {
+            color: purple;
+            font-size: 30px;
+        }
+
+        /* class css */
+        .xyz {
+            color: orange;
+            font-size: 30px;
+
+        }
+
+        .abc {
+            color: palegreen !important;
+            font-size: 60px;
+            background-color: black;
+        }
+
+        /* id */
+        #myid{
+            color: yellow;
+            background-color: black;
+        }
+
+        .rdf
+        {
+            border-top-width: 3px;
+            border-bottom-width: 5px;
+            border-left-width: 4px;
+            border-right-width: 6px;
+            border-top-style: solid;
+            border-left-style: dotted;
+            border-right-style: double;
+            border-bottom-style: groove;
+            border-top-color: black;
+            border-left-color: aquamarine;
+            border-bottom-color: blueviolet;
+            border-right-color:red ;
+        }
+
+        .fff
+        {
+            border: 30px 40px 50px 60px;
+            border-style: dashed dotted ridge solid;
+            border-color: black gray blueviolet yellowgreen;
+            padding: 30px 50px 40px 20px;
+            background-color: yellow;
+        }

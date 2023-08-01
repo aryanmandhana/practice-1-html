@@ -1,0 +1,100 @@
+<html>
+
+<head>
+
+    <title>TEST</title>
+    <style>
+        /* table css */
+        table,
+        th,
+        td {
+            border: 2px dotted red;
+            border-collapse: collapse;
+        }
+
+        /* paragraph css */
+        p {
+            color: purple;
+            font-size: 30px;
+        }
+
+        /* class css */
+        .xyz {
+            color: orange;
+            font-size: 30px;
+        }
+
+        .abc {
+            color: palegreen !important;
+            font-size: 60px;
+            background-color: black;
+        }
+
+        /* id */
+        #myid{
+            color: yellow;
+            background-color: black;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- tables tr table row th table heading td table data -->
+
+
+    <table style="width: 100%;text-align: center;">
+        <tr>
+            <th style="background-color: bisque;" colspan="2">name</th>
+            <th>class</th>
+        </tr>
+        <tr>
+            <td style="color: aqua;">a</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr style="color: aqua;">
+            <td>a</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td rowspan="2">a</td>
+            <td>1</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>a</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <!-- inline is priotrized then css -->
+    <p style="color: blue;">this is a paragraph and i am writing this</p>
+    <p class="xyz abc">this is a paragraph and i am writing this</p>
+    <p class="xyz abc">this is a paragraph and i am writing this</p>
+    <p class="xyz">this is a paragraph and i am writing this</p>
+    <p class="xyz">this is a paragraph and i am writing this</p>
+    <p class="xyz">this is a paragraph and i am writing this</p>
+    <p class="xyz">this is a paragraph and i am writing this</p>
+    <p class="xyz">this is a paragraph and i am writing this</p>
+
+    <p id="myid">hello user</p>
+    <p>hello user</p>
+    <p>hello user</p>
+    <p>hello user</p>
+    <p>hello user</p>
+
+    <!-- class for multiple element in page and id one time use in one page -->
+    <!-- class is case sensitive and id also -->
+
+
+</body>
+
+</html>
